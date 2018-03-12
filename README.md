@@ -9,4 +9,4 @@ runtime. These source files are saved with the __\*.avm__ extension, and are the
 Colossus also doubles as a small lightweight text editor with support for other file types (__\*.txt, \*.vb, \*.cs, \*.\*__)
 
 Colossus IDE is released free-of-charge under a modified BSD 3-Clause Clear license.
-You can view the license in the LICENSE.md file.
+You can view the license in the [LICENSE.md](../blob/master/LICENSE.md) file.

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colossus IDE", "Colossus IDE\Colossus IDE.csproj", "{774CCA39-5603-4987-94BA-576F07C3C215}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colossus IDE", "src\Colossus IDE.csproj", "{774CCA39-5603-4987-94BA-576F07C3C215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
-# The Clear BSD License
+## The Clear BSD License
 
-## Copyright (c) 2018 The Apollo Project
-## All rights reserved.
+### Copyright (c) 2018 The Apollo Project
+### All rights reserved.
 
 The Apollo Licence is mostly the same as the BSD 3-Clause Clear licence, 
 however this licence does not grant any rights in the trademarks, service marks or logos of any Contributor.

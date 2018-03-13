@@ -10,12 +10,12 @@ using System.IO;
 
 namespace Colossus_IDE
 {
-	partial class AboutBox1 : Form
+	partial class About : Form
 	{
 		Assembly _assembly;
 		StreamReader _streamReader;
 
-		public AboutBox1()
+		public About()
 		{
 			InitializeComponent();
 			this.Text = String.Format("About {0}", AssemblyTitle);

@@ -16,7 +16,7 @@ namespace Colossus_IDE
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainWindow());
+			Application.Run(new SplashScreen());
 		}
 	}
 }

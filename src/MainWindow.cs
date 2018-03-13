@@ -13,6 +13,7 @@ namespace Colossus_IDE
 	public partial class MainWindow : Form
 	{
 		private int TabCount = 0;
+		public bool saved = false;
 		private RichTextBox GetCurrentDocument
 		{
 			get
@@ -246,7 +247,7 @@ namespace Colossus_IDE
 
 		private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			AboutBox1 aboutbox = new AboutBox1();
+			About aboutbox = new About();
 			aboutbox.ShowDialog();
 		}
 
@@ -268,6 +269,11 @@ namespace Colossus_IDE
 		private void printToolStripButton_Click(object sender, EventArgs e)
 		{
 			AIL_VM.Debug(GetCurrentDocument.Lines);
+		}
+
+		private void MainWindow_Load(object sender, EventArgs e)
+		{
+			AddTab();
 		}
 	}
 }

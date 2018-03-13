@@ -742,7 +742,7 @@
 			this.TopToolStrip.PerformLayout();
 			this.contextMenuStrip1.ResumeLayout(false);
 			this.ResumeLayout(false);
-
+			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainWindow_FormClosing);
 		}
 
 		#endregion

@@ -275,5 +275,9 @@ namespace Colossus_IDE
 		{
 			AddTab();
 		}
+		private void MainWindow_FormClosing(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }
